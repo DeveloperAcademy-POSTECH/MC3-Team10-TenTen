@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		279CAC6B2886D85B00F8CBC3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC6A2886D85B00F8CBC3 /* BaseViewController.swift */; };
+		279CAC6E2886D8E400F8CBC3 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC6D2886D8E400F8CBC3 /* BackButton.swift */; };
+		279CAC712886FB3200F8CBC3 /* ImageLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC702886FB3200F8CBC3 /* ImageLiterals.swift */; };
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
 		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
 		C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279CAC6A2886D85B00F8CBC3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		279CAC6D2886D8E400F8CBC3 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		279CAC702886FB3200F8CBC3 /* ImageLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiterals.swift; sourceTree = "<group>"; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
 		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
 		C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +47,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279CAC692886D84B00F8CBC3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				279CAC6A2886D85B00F8CBC3 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		279CAC6C2886D8C900F8CBC3 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				279CAC6D2886D8E400F8CBC3 /* BackButton.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		279CAC6F2886FB2000F8CBC3 /* Literal */ = {
+			isa = PBXGroup;
+			children = (
+				279CAC702886FB3200F8CBC3 /* ImageLiterals.swift */,
+			);
+			path = Literal;
+			sourceTree = "<group>";
+		};
 		27C8AC1E2885406A000D2374 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				279CAC6F2886FB2000F8CBC3 /* Literal */,
+				279CAC6C2886D8C900F8CBC3 /* UIComponent */,
 				C56CDACC287EE41F00C1F5F9 /* Assets.xcassets */,
 			);
 			path = Global;
@@ -52,6 +84,7 @@
 		27C8AC1F28854156000D2374 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				279CAC692886D84B00F8CBC3 /* Base */,
 				27C8AC21288542B1000D2374 /* letterList */,
 			);
 			path = Screens;
@@ -177,10 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */,
+				279CAC712886FB3200F8CBC3 /* ImageLiterals.swift in Sources */,
 				C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
 				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
+				279CAC6E2886D8E400F8CBC3 /* BackButton.swift in Sources */,
+				279CAC6B2886D85B00F8CBC3 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
