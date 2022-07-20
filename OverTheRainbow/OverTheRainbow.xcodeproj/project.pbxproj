@@ -17,6 +17,7 @@
 		C56CDACD287EE41F00C1F5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56CDACC287EE41F00C1F5F9 /* Assets.xcassets */; };
 		C56CDAD0287EE41F00C1F5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56CDACE287EE41F00C1F5F9 /* LaunchScreen.storyboard */; };
 		C5F7E8A328879DAA00F6B409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7E8A228879DAA00F6B409 /* Main.storyboard */; };
+		C5F7E8A92887D0F900F6B409 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7E8A82887D0F900F6B409 /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C56CDACF287EE41F00C1F5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C56CDAD1287EE41F00C1F5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F7E8A228879DAA00F6B409 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C5F7E8A82887D0F900F6B409 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C56CDAD1287EE41F00C1F5F9 /* Info.plist */,
 				C5345AFD28878FA6007CF796 /* OtherStoryboard.storyboard */,
 				C5F7E8A228879DAA00F6B409 /* Main.storyboard */,
+				C5F7E8A82887D0F900F6B409 /* CustomViewController.swift */,
 			);
 			path = OverTheRainbow;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */,
 				C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
+				C5F7E8A92887D0F900F6B409 /* CustomViewController.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
 				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
 			);
