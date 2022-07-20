@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
 		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
+		2C93A74F2887E5FA005A0CA8 /* SettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */; };
+		2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7502887E609005A0CA8 /* SettingViewController.swift */; };
+		2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */; };
 		C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */; };
 		C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */; };
 		C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC7287EE41E00C1F5F9 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
 		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
+		2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingView.storyboard; sourceTree = "<group>"; };
+		2C93A7502887E609005A0CA8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePetViewController.swift; sourceTree = "<group>"; };
 		C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +58,7 @@
 		27C8AC1F28854156000D2374 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2C93A74D2887E5EA005A0CA8 /* SettingView */,
 				27C8AC21288542B1000D2374 /* letterList */,
 			);
 			path = Screens;
@@ -71,6 +78,16 @@
 				27C8AC22288542CD000D2374 /* LetterListViewController.swift */,
 			);
 			path = letterList;
+			sourceTree = "<group>";
+		};
+		2C93A74D2887E5EA005A0CA8 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */,
+				2C93A7502887E609005A0CA8 /* SettingViewController.swift */,
+				2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */,
+			);
+			path = SettingView;
 			sourceTree = "<group>";
 		};
 		C56CDAB7287EE41E00C1F5F9 = {
@@ -166,6 +183,7 @@
 			files = (
 				C56CDAD0287EE41F00C1F5F9 /* LaunchScreen.storyboard in Resources */,
 				C56CDACD287EE41F00C1F5F9 /* Assets.xcassets in Resources */,
+				2C93A74F2887E5FA005A0CA8 /* SettingView.storyboard in Resources */,
 				C56CDACB287EE41E00C1F5F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +220,9 @@
 				C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
+				2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */,
 				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
+				2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
