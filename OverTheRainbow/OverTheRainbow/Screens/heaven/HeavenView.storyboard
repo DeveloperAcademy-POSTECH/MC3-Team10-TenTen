@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0ay-2Q-bbc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Heaven View Controller-->
+        <scene sceneID="5fI-Lk-VD7">
+            <objects>
+                <viewController storyboardIdentifier="HeavenView" id="0ay-2Q-bbc" customClass="HeavenViewController" customModule="OverTheRainbow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jvh-FB-ReC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rt0-pF-re5">
+                                <rect key="frame" x="82" y="184" width="250" height="270"/>
+                                <color key="backgroundColor" name="backgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="03R-sW-5iG"/>
+                                    <constraint firstAttribute="height" constant="270" id="e3I-rw-VKv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="petImageButtonPressed:" destination="0ay-2Q-bbc" eventType="touchUpInside" id="pMv-nD-EUO"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wVx-i3-WS8">
+                                <rect key="frame" x="82" y="184" width="250" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="BWI-7Z-x45"/>
+                                    <constraint firstAttribute="height" constant="270" id="Bkc-eS-wdg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBM-VO-3Z0">
+                                <rect key="frame" x="82" y="184" width="250" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="VKz-cO-EDR"/>
+                                    <constraint firstAttribute="height" constant="270" id="Xvb-xj-0fo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1g0-aD-adu"/>
+                        <color key="backgroundColor" name="heavenLetterBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rt0-pF-re5" firstAttribute="top" secondItem="1g0-aD-adu" secondAttribute="top" constant="140" id="9vP-t2-NWx"/>
+                            <constraint firstItem="fBM-VO-3Z0" firstAttribute="top" secondItem="1g0-aD-adu" secondAttribute="top" constant="140" id="Cad-lO-goy"/>
+                            <constraint firstItem="wVx-i3-WS8" firstAttribute="top" secondItem="1g0-aD-adu" secondAttribute="top" constant="140" id="NQh-ik-ogP"/>
+                            <constraint firstItem="wVx-i3-WS8" firstAttribute="centerX" secondItem="jvh-FB-ReC" secondAttribute="centerX" id="YZv-ue-h41"/>
+                            <constraint firstItem="rt0-pF-re5" firstAttribute="centerX" secondItem="jvh-FB-ReC" secondAttribute="centerX" id="asN-As-IyU"/>
+                            <constraint firstItem="fBM-VO-3Z0" firstAttribute="centerX" secondItem="jvh-FB-ReC" secondAttribute="centerX" id="f7O-2H-Pbc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="frameImageView" destination="fBM-VO-3Z0" id="YaZ-ZZ-mBl"/>
+                        <outlet property="petImageView" destination="wVx-i3-WS8" id="4wL-Ty-4d0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBF-bN-tJo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371.01449275362324" y="41.517857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="backgroundColor">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="heavenLetterBackgroundColor">
+            <color red="0.82745098039215681" green="0.92549019607843142" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
