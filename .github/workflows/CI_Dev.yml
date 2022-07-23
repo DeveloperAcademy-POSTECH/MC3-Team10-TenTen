@@ -16,6 +16,7 @@ jobs:
     - name: CocoaPod Install
       run: |
         cd ./OverTheRainbow
+        pod deintegrate
         pod install
     - name: Build & Test (xcodeproj)
       run: |
