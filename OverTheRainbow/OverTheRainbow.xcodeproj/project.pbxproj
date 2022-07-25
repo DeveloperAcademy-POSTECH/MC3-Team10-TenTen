@@ -11,6 +11,9 @@
 		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
 		C5345AF8288649C9007CF796 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AF7288649C9007CF796 /* MainViewController.swift */; };
 		C5345AFC28864E86007CF796 /* BoxViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AFB28864E86007CF796 /* BoxViews.swift */; };
+		C554EA18288E603200954E11 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA14288E603100954E11 /* TransitionAnimation.swift */; };
+		C554EA1A288E603200954E11 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */; };
+		C554EA1B288E603200954E11 /* TestHeavenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA17288E603200954E11 /* TestHeavenViewController.swift */; };
 		A8509B4A28878C4000CD88C1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4928878C4000CD88C1 /* Pet.swift */; };
 		A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4B28878EA000CD88C1 /* Letter.swift */; };
 		A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */; };
@@ -68,6 +71,9 @@
 		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
 		C5345AF7288649C9007CF796 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C5345AFB28864E86007CF796 /* BoxViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViews.swift; sourceTree = "<group>"; };
+		C554EA14288E603100954E11 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		C554EA17288E603200954E11 /* TestHeavenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHeavenViewController.swift; sourceTree = "<group>"; };
 		7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.release.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.release.xcconfig"; sourceTree = "<group>"; };
 		A8509B4928878C4000CD88C1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		A8509B4B28878EA000CD88C1 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
@@ -338,6 +344,9 @@
 		C5345AF6288649AB007CF796 /* mainView */ = {
 			isa = PBXGroup;
 			children = (
+				C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */,
+				C554EA17288E603200954E11 /* TestHeavenViewController.swift */,
+				C554EA14288E603100954E11 /* TransitionAnimation.swift */,
 				C5345AF7288649C9007CF796 /* MainViewController.swift */,
 				C5345AFB28864E86007CF796 /* BoxViews.swift */,
 				C5F7E8B92887F03500F6B409 /* FontExtension.swift */,
@@ -558,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C554EA18288E603200954E11 /* TransitionAnimation.swift in Sources */,
 				A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */,
 				A8A87ED92889753A009E3C6C /* MainViewResultDto.swift in Sources */,
 				A8509B70288804C900CD88C1 /* RealmService.swift in Sources */,
@@ -572,6 +582,8 @@
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				C5345AFC28864E86007CF796 /* BoxViews.swift in Sources */,
 				C5345AF8288649C9007CF796 /* MainViewController.swift in Sources */,
+				C554EA1B288E603200954E11 /* TestHeavenViewController.swift in Sources */,
+				C554EA1A288E603200954E11 /* NavigationControllerDelegate.swift in Sources */,
 				A8509B8E2888D9D600CD88C1 /* DateConveter.swift in Sources */,
 				A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
