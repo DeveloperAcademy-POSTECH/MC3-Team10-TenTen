@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
+		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
+		2C93A74F2887E5FA005A0CA8 /* SettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */; };
+		2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7502887E609005A0CA8 /* SettingViewController.swift */; };
+		2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */; };
 		A8509B4A28878C4000CD88C1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4928878C4000CD88C1 /* Pet.swift */; };
 		A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4B28878EA000CD88C1 /* Letter.swift */; };
 		A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */; };
@@ -61,6 +65,10 @@
 /* Begin PBXFileReference section */
 		0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheRainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
+		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
+		2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingView.storyboard; sourceTree = "<group>"; };
+		2C93A7502887E609005A0CA8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePetViewController.swift; sourceTree = "<group>"; };
 		7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.release.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.release.xcconfig"; sourceTree = "<group>"; };
 		A8509B4928878C4000CD88C1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		A8509B4B28878EA000CD88C1 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
@@ -165,6 +173,7 @@
 		27C8AC1F28854156000D2374 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2C93A74D2887E5EA005A0CA8 /* SettingView */,
 				27C8AC21288542B1000D2374 /* letterList */,
 			);
 			path = Screens;
@@ -326,6 +335,16 @@
 			path = Date;
 			sourceTree = "<group>";
 		};
+		2C93A74D2887E5EA005A0CA8 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */,
+				2C93A7502887E609005A0CA8 /* SettingViewController.swift */,
+				2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
 		C56CDAB7287EE41E00C1F5F9 = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +474,7 @@
 			files = (
 				C56CDAD0287EE41F00C1F5F9 /* LaunchScreen.storyboard in Resources */,
 				C56CDACD287EE41F00C1F5F9 /* Assets.xcassets in Resources */,
+				2C93A74F2887E5FA005A0CA8 /* SettingView.storyboard in Resources */,
 				C56CDACB287EE41E00C1F5F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +583,9 @@
 				A8509B832888326800CD88C1 /* RealmError.swift in Sources */,
 				A8509B892888D0E400CD88C1 /* FlowerLogStatus.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
+				2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */,
+				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
+				2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */,
 				A8509B80288827CD00CD88C1 /* PetInputDto.swift in Sources */,
 				A8509B8B2888D79800CD88C1 /* LetterResultDto.swift in Sources */,
 				A8A87EDD288A484F009E3C6C /* DataAccessConfig.swift in Sources */,
