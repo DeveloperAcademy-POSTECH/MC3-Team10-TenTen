@@ -1,6 +1,6 @@
 //
-//  BaseViewController.swift
-//  OverTheRainbow
+// BaseViewController.swift
+// OverTheRainbow
 //
 //  Created by Jihye Hong on 2022/07/19.
 //
@@ -8,9 +8,7 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-    
     // MARK: - property
-    
     private lazy var backButton: UIButton = {
         let button = BackButton()
         let buttonAction = UIAction { _ in
@@ -28,6 +26,10 @@ class BaseViewController: UIViewController {
         setupBackButton()
         setupNavigationBar()
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+//        NotificationCenter.default.removeObserver(self)
+    }
     func render() {
         // Override Layout
     }
@@ -37,11 +39,13 @@ class BaseViewController: UIViewController {
     func setupNavigationBar() {
         guard let navigationBar = navigationController?.navigationBar else { return }
         let appearance = UINavigationBarAppearance()
-        appearance.shadowColor = .clear
+        appearance.shadowColor = UIColor(named: "textColor")
+        appearance.backgroundColor = UIColor(named: "navigationBar Color")
         navigationBar.standardAppearance = appearance
         navigationBar.compactAppearance = appearance
         navigationBar.scrollEdgeAppearance = appearance
     }
+    // MARK: - helper func
     func makeBarButtonItem<T: UIView>(with view: T) -> UIBarButtonItem {
         return UIBarButtonItem(customView: view)
     }
@@ -51,9 +55,38 @@ class BaseViewController: UIViewController {
         offsetView.addSubview(button)
         return offsetView
     }
+    // MARK: - private func
     private func setupBackButton() {
         let leftOffsetBackButton = removeBarButtonItemOffset(with: backButton, offsetX: 10)
         let backButton = makeBarButtonItem(with: leftOffsetBackButton)
         navigationItem.leftBarButtonItem = backButton
     }
 }
+
+struct BaseView:PreviewProvider {
+    static var previews: some View {
+        BaseViewController().toPreview()
+    }
+}
+
+
+import SwiftUI
+
+#if DEBUG
+extension UIViewController {
+    private struct Preview: UIViewControllerRepresentable {
+            let viewController: UIViewController
+
+            func makeUIViewController(context: Context) -> UIViewController {
+                return viewController
+            }
+
+            func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+            }
+        }
+
+        func toPreview() -> some View {
+            Preview(viewController: self)
+        }
+}
+#endif

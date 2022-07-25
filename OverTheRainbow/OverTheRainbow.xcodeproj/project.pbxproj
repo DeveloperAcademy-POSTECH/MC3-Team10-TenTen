@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27320645288BCB1D001A93BE /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27320644288BCB1D001A93BE /* Letter.swift */; };
+		27320648288D24B9001A93BE /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27320647288D24B9001A93BE /* UICollectionView+Extension.swift */; };
+		2732064A288D24EC001A93BE /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27320649288D24EC001A93BE /* NSObject+Extension.swift */; };
 		279CAC6B2886D85B00F8CBC3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC6A2886D85B00F8CBC3 /* BaseViewController.swift */; };
 		279CAC6E2886D8E400F8CBC3 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC6D2886D8E400F8CBC3 /* BackButton.swift */; };
 		279CAC712886FB3200F8CBC3 /* ImageLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC702886FB3200F8CBC3 /* ImageLiterals.swift */; };
+		279CAC7428882C3A00F8CBC3 /* LetterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CAC7328882C3A00F8CBC3 /* LetterCollectionViewCell.swift */; };
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
 		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
 		C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */; };
@@ -21,11 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27320644288BCB1D001A93BE /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		27320647288D24B9001A93BE /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		27320649288D24EC001A93BE /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		279CAC6A2886D85B00F8CBC3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		279CAC6D2886D8E400F8CBC3 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		279CAC702886FB3200F8CBC3 /* ImageLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiterals.swift; sourceTree = "<group>"; };
+		279CAC7328882C3A00F8CBC3 /* LetterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCollectionViewCell.swift; sourceTree = "<group>"; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
 		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
+		4BAA0D8B6F3106FCED1D79AB /* Pods-OverTheRainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.release.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.release.xcconfig"; sourceTree = "<group>"; };
+		A7C4FD8E10525771F78C7267 /* Pods-OverTheRainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.debug.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.debug.xcconfig"; sourceTree = "<group>"; };
 		C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27320643288BCB0A001A93BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27320644288BCB1D001A93BE /* Letter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27320646288D2499001A93BE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27320647288D24B9001A93BE /* UICollectionView+Extension.swift */,
+				27320649288D24EC001A93BE /* NSObject+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		279CAC692886D84B00F8CBC3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +98,18 @@
 			path = Literal;
 			sourceTree = "<group>";
 		};
+		279CAC7228882C1200F8CBC3 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				279CAC7328882C3A00F8CBC3 /* LetterCollectionViewCell.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
 		27C8AC1E2885406A000D2374 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				27320646288D2499001A93BE /* Extension */,
 				279CAC6F2886FB2000F8CBC3 /* Literal */,
 				279CAC6C2886D8C900F8CBC3 /* UIComponent */,
 				C56CDACC287EE41F00C1F5F9 /* Assets.xcassets */,
@@ -93,6 +129,7 @@
 		27C8AC2028854182000D2374 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				27320643288BCB0A001A93BE /* Models */,
 				27C8AC24288542DC000D2374 /* TempFile.swift */,
 			);
 			path = Network;
@@ -101,9 +138,26 @@
 		27C8AC21288542B1000D2374 /* letterList */ = {
 			isa = PBXGroup;
 			children = (
+				279CAC7228882C1200F8CBC3 /* UIComponent */,
 				27C8AC22288542CD000D2374 /* LetterListViewController.swift */,
 			);
 			path = letterList;
+			sourceTree = "<group>";
+		};
+		53B8D69581D5F570C0C9CFDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7C4FD8E10525771F78C7267 /* Pods-OverTheRainbow.debug.xcconfig */,
+				4BAA0D8B6F3106FCED1D79AB /* Pods-OverTheRainbow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90D0B65030E9166F69C8FAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C56CDAB7287EE41E00C1F5F9 = {
@@ -111,6 +165,8 @@
 			children = (
 				C56CDAC2287EE41E00C1F5F9 /* OverTheRainbow */,
 				C56CDAC1287EE41E00C1F5F9 /* Products */,
+				53B8D69581D5F570C0C9CFDD /* Pods */,
+				90D0B65030E9166F69C8FAE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C56CDAD4287EE41F00C1F5F9 /* Build configuration list for PBXNativeTarget "OverTheRainbow" */;
 			buildPhases = (
+				818888C7769E0E7BAEC05885 /* [CP] Check Pods Manifest.lock */,
 				C5767F1B2885390D006E5991 /* Run SwiftLint */,
 				C56CDABC287EE41E00C1F5F9 /* Sources */,
 				C56CDABD287EE41E00C1F5F9 /* Frameworks */,
@@ -206,6 +263,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		818888C7769E0E7BAEC05885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverTheRainbow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C5767F1B2885390D006E5991 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,13 +311,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */,
+				27320648288D24B9001A93BE /* UICollectionView+Extension.swift in Sources */,
 				279CAC712886FB3200F8CBC3 /* ImageLiterals.swift in Sources */,
 				C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
 				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
 				279CAC6E2886D8E400F8CBC3 /* BackButton.swift in Sources */,
+				27320645288BCB1D001A93BE /* Letter.swift in Sources */,
 				279CAC6B2886D85B00F8CBC3 /* BaseViewController.swift in Sources */,
+				279CAC7428882C3A00F8CBC3 /* LetterCollectionViewCell.swift in Sources */,
+				2732064A288D24EC001A93BE /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -368,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -380,6 +463,7 @@
 		};
 		C56CDAD5287EE41F00C1F5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C4FD8E10525771F78C7267 /* Pods-OverTheRainbow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -408,6 +492,7 @@
 		};
 		C56CDAD6287EE41F00C1F5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAA0D8B6F3106FCED1D79AB /* Pods-OverTheRainbow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
