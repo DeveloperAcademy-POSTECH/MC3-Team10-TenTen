@@ -13,6 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: CocoaPod Install
+      run: |
+        cd ./OverTheRainbow
+        pod install
     - name: Build & Test (xcodeproj)
-      run: xcodebuild clean build -project OverTheRainbow/OverTheRainbow.xcodeproj -scheme OverTheRainbow -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.2'
+      run: |
+        xcodebuild clean build \
+        -workspace OverTheRainbow/OverTheRainbow.xcworkspace \
+        -scheme OverTheRainbow -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.2'
     
