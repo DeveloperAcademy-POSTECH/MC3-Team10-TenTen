@@ -135,6 +135,9 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
                 (image, error) in
                 DispatchQueue.main.async {
                     self.openGallery.image = image as? UIImage
+                    if((image) != nil) {
+                        self.selectPicture.setImage(UIImage(), for: .normal)
+                    }
                 }
             }
         }
