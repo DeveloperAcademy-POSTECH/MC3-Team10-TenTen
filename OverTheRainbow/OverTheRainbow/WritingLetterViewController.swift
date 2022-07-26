@@ -68,7 +68,6 @@ class WritingLetterViewController: UIViewController {
     }
 
     @objc func dismissKeyboard() {
-        // Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
 
@@ -142,6 +141,7 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
             itemProvider.loadObject(ofClass: UIImage.self) { (image, _) in
                 DispatchQueue.main.async {
                     self.openGallery.image = image as? UIImage
+                    self.openGallery.contentMode = .scaleAspectFill
                     if (image) != nil {
                         self.selectPicture.setImage(UIImage(), for: .normal)
                     }

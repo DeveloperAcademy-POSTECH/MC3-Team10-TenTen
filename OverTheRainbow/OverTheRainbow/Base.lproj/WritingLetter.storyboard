@@ -62,16 +62,16 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2o-bq-xzv">
-                                <rect key="frame" x="20" y="356" width="350" height="59"/>
+                                <rect key="frame" x="20" y="356" width="350" height="49"/>
                                 <color key="backgroundColor" red="0.95934301609999995" green="0.95799666640000003" blue="0.91491341589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="xoM-XW-S2z"/>
+                                    <constraint firstAttribute="height" constant="49" id="2dt-fu-sEb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jdv-ai-LNP">
-                                <rect key="frame" x="20" y="436" width="350" height="254"/>
+                                <rect key="frame" x="20" y="415" width="350" height="254"/>
                                 <color key="backgroundColor" red="0.95934301609999995" green="0.95799666640000003" blue="0.91491341589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="254" id="J1z-CO-3ef"/>
@@ -86,9 +86,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWg-NO-y3b">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWg-NO-y3b">
                                 <rect key="frame" x="20" y="81" width="350" height="255"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>
@@ -100,15 +99,19 @@
                             <constraint firstItem="jtG-3a-geC" firstAttribute="leading" secondItem="K2o-bq-xzv" secondAttribute="leading" id="4gT-gE-TMs"/>
                             <constraint firstItem="HeR-2X-SYb" firstAttribute="trailing" secondItem="jtG-3a-geC" secondAttribute="trailing" constant="20" id="5PH-9L-sRP"/>
                             <constraint firstItem="jtG-3a-geC" firstAttribute="top" secondItem="HeR-2X-SYb" secondAttribute="top" constant="25" id="5UF-7K-23g"/>
+                            <constraint firstItem="GWg-NO-y3b" firstAttribute="top" secondItem="HeR-2X-SYb" secondAttribute="top" constant="25" id="7ve-mv-xhT"/>
                             <constraint firstItem="K2o-bq-xzv" firstAttribute="top" secondItem="jtG-3a-geC" secondAttribute="bottom" constant="20" id="FGC-lT-MDV"/>
+                            <constraint firstItem="K2o-bq-xzv" firstAttribute="top" secondItem="GWg-NO-y3b" secondAttribute="bottom" constant="20" id="J6Z-X2-r9y"/>
                             <constraint firstItem="jtG-3a-geC" firstAttribute="trailing" secondItem="jdv-ai-LNP" secondAttribute="trailing" id="OGk-vH-j57"/>
+                            <constraint firstItem="jdv-ai-LNP" firstAttribute="top" secondItem="K2o-bq-xzv" secondAttribute="bottom" constant="10" id="QID-SI-G4e"/>
                             <constraint firstItem="HeR-2X-SYb" firstAttribute="bottom" secondItem="9yl-8g-29F" secondAttribute="bottom" constant="22" id="SR0-kL-OBz"/>
                             <constraint firstItem="9yl-8g-29F" firstAttribute="top" secondItem="jdv-ai-LNP" secondAttribute="bottom" constant="22" id="SSC-2G-hvK"/>
                             <constraint firstItem="jtG-3a-geC" firstAttribute="leading" secondItem="HeR-2X-SYb" secondAttribute="leading" constant="20" id="VFn-MJ-5I3"/>
+                            <constraint firstItem="HeR-2X-SYb" firstAttribute="trailing" secondItem="GWg-NO-y3b" secondAttribute="trailing" constant="20" id="Xl5-m9-5Py"/>
                             <constraint firstItem="jtG-3a-geC" firstAttribute="trailing" secondItem="9yl-8g-29F" secondAttribute="trailing" id="bIW-Oe-jNt"/>
+                            <constraint firstItem="GWg-NO-y3b" firstAttribute="leading" secondItem="HeR-2X-SYb" secondAttribute="leading" constant="20" id="eLP-h6-MV5"/>
                             <constraint firstItem="9yl-8g-29F" firstAttribute="leading" secondItem="HeR-2X-SYb" secondAttribute="leading" constant="232" id="iLF-KG-TT7"/>
                             <constraint firstItem="jtG-3a-geC" firstAttribute="trailing" secondItem="K2o-bq-xzv" secondAttribute="trailing" id="npp-Nj-Xis"/>
-                            <constraint firstItem="jdv-ai-LNP" firstAttribute="top" secondItem="K2o-bq-xzv" secondAttribute="bottom" constant="21" id="uMO-oa-vEm"/>
                             <constraint firstAttribute="bottom" secondItem="jdv-ai-LNP" secondAttribute="bottom" constant="100" id="xUv-eo-Dmg"/>
                         </constraints>
                     </view>
