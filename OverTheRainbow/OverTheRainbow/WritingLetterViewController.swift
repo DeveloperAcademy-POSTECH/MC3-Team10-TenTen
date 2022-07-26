@@ -113,7 +113,7 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
 //            let photoLibrary = PHPhotoLibrary.shared()
 //            var configuration = PHPickerConfiguration(photoLibrary: photoLibrary)
 
-        configuration.selectionLimit = 1 //한번에 가지고 올 이미지 갯수 제한 //limit selectable image counts
+        configuration.selectionLimit = 1
         configuration.filter = .any(of: [.images])
         let picker = PHPickerViewController(configuration: configuration)
         picker.delegate = self
@@ -122,20 +122,15 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
 
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
 
-        var imgData: Data?
-        var img: UIImage?
-
-
         picker.dismiss(animated: true, completion: nil)
         let itemProvider = results.first?.itemProvider
 
         if let itemProvider = itemProvider,
            itemProvider.canLoadObject(ofClass: UIImage.self) {
-            itemProvider.loadObject(ofClass: UIImage.self) {
-                (image, error) in
+            itemProvider.loadObject(ofClass: UIImage.self) { (image, _) in
                 DispatchQueue.main.async {
                     self.openGallery.image = image as? UIImage
-                    if((image) != nil) {
+                    if (image) != nil {
                         self.selectPicture.setImage(UIImage(), for: .normal)
                     }
                 }
