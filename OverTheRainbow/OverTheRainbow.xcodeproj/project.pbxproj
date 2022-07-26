@@ -12,6 +12,38 @@
 		C50FC85F288DF8760005DA18 /* EditLetterViewConttroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50FC85E288DF8760005DA18 /* EditLetterViewConttroller.swift */; };
 		C50FC861288DFA270005DA18 /* WrittenLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50FC860288DFA270005DA18 /* WrittenLetterViewController.swift */; };
 		C52ACC5A288DBC8D00E4F9F6 /* WritingLetter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52ACC58288DBC8D00E4F9F6 /* WritingLetter.storyboard */; };
+		A8509B4A28878C4000CD88C1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4928878C4000CD88C1 /* Pet.swift */; };
+		A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4B28878EA000CD88C1 /* Letter.swift */; };
+		A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */; };
+		A8509B522887906F00CD88C1 /* LetterStatusTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B512887906F00CD88C1 /* LetterStatusTest.swift */; };
+		A8509B542887996E00CD88C1 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B532887996E00CD88C1 /* Flower.swift */; };
+		A8509B56288799B400CD88C1 /* FlowerLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B55288799B400CD88C1 /* FlowerLog.swift */; };
+		A8509B5828879A3900CD88C1 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B5728879A3900CD88C1 /* Words.swift */; };
+		A8509B5A2887A0C400CD88C1 /* ModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B592887A0C400CD88C1 /* ModelTest.swift */; };
+		A8509B5E2887F18800CD88C1 /* Pods_OverTheRainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */; };
+		A8509B70288804C900CD88C1 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B6F288804C900CD88C1 /* RealmService.swift */; };
+		A8509B722888053000CD88C1 /* DataAccessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B712888053000CD88C1 /* DataAccessService.swift */; };
+		A8509B77288805ED00CD88C1 /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B76288805ED00CD88C1 /* RealmRepository.swift */; };
+		A8509B792888066F00CD88C1 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B782888066F00CD88C1 /* RealmConfig.swift */; };
+		A8509B7B288819C200CD88C1 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B7A288819C200CD88C1 /* RealmModel.swift */; };
+		A8509B80288827CD00CD88C1 /* PetInputDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B7F288827CD00CD88C1 /* PetInputDto.swift */; };
+		A8509B832888326800CD88C1 /* RealmError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B822888326800CD88C1 /* RealmError.swift */; };
+		A8509B85288838A600CD88C1 /* PetResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B84288838A600CD88C1 /* PetResultDto.swift */; };
+		A8509B872888437B00CD88C1 /* LetterInputDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B862888437B00CD88C1 /* LetterInputDto.swift */; };
+		A8509B892888D0E400CD88C1 /* FlowerLogStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B882888D0E400CD88C1 /* FlowerLogStatus.swift */; };
+		A8509B8B2888D79800CD88C1 /* LetterResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B8A2888D79800CD88C1 /* LetterResultDto.swift */; };
+		A8509B8E2888D9D600CD88C1 /* DateConveter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B8D2888D9D600CD88C1 /* DateConveter.swift */; };
+		A8509B902888E6D300CD88C1 /* UtilError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B8F2888E6D300CD88C1 /* UtilError.swift */; };
+		A86EE311288788E400084E98 /* OverTheRainbowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86EE310288788E400084E98 /* OverTheRainbowTests.swift */; };
+		A8A87ED92889753A009E3C6C /* MainViewResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87ED82889753A009E3C6C /* MainViewResultDto.swift */; };
+		A8A87EDB288A2C85009E3C6C /* DataAccessProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87EDA288A2C85009E3C6C /* DataAccessProvider.swift */; };
+		A8A87EDD288A484F009E3C6C /* DataAccessConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87EDC288A484F009E3C6C /* DataAccessConfig.swift */; };
+		A8A87EDF288A4C8F009E3C6C /* HeavenViewResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87EDE288A4C8F009E3C6C /* HeavenViewResultDto.swift */; };
+		A8A87EE2288AE2EB009E3C6C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87EE1288AE2EB009E3C6C /* Results.swift */; };
+		A8A87EE4288B845A009E3C6C /* WordResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A87EE3288B845A009E3C6C /* WordResultDto.swift */; };
+		A8D95DED288935F500EE02CB /* FlowerResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DEC288935F500EE02CB /* FlowerResultDto.swift */; };
+		A8D95DEF2889593200EE02CB /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DEE2889593200EE02CB /* DateFormat.swift */; };
+		A8D95DF12889621400EE02CB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DF02889621400EE02CB /* DateExtension.swift */; };
 		C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */; };
 		C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */; };
 		C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC7287EE41E00C1F5F9 /* ViewController.swift */; };
@@ -22,12 +54,63 @@
 		C58E3B63288DBF3F00D66BBD /* WrittenLetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3B62288DBF3F00D66BBD /* WrittenLetterListViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A86EE312288788E400084E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56CDAB8287EE41E00C1F5F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56CDABF287EE41E00C1F5F9;
+			remoteInfo = OverTheRainbow;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheRainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
 		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
 		C50FC85E288DF8760005DA18 /* EditLetterViewConttroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLetterViewConttroller.swift; sourceTree = "<group>"; };
 		C50FC860288DFA270005DA18 /* WrittenLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrittenLetterViewController.swift; sourceTree = "<group>"; };
 		C52ACC59288DBC8D00E4F9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WritingLetter.storyboard; sourceTree = "<group>"; };
+		7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.release.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.release.xcconfig"; sourceTree = "<group>"; };
+		A8509B4928878C4000CD88C1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		A8509B4B28878EA000CD88C1 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterStatus.swift; sourceTree = "<group>"; };
+		A8509B512887906F00CD88C1 /* LetterStatusTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterStatusTest.swift; sourceTree = "<group>"; };
+		A8509B532887996E00CD88C1 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		A8509B55288799B400CD88C1 /* FlowerLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerLog.swift; sourceTree = "<group>"; };
+		A8509B5728879A3900CD88C1 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		A8509B592887A0C400CD88C1 /* ModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTest.swift; sourceTree = "<group>"; };
+		A8509B612887F85400CD88C1 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509B632887F86400CD88C1 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509B662887F8A500CD88C1 /* realm-monorepo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "realm-monorepo.xcframework"; path = "Pods/Realm/core/realm-monorepo.xcframework"; sourceTree = "<group>"; };
+		A8509B682887F8B600CD88C1 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509B6A2887FB4100CD88C1 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509B6C2887FB4700CD88C1 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509B6F288804C900CD88C1 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		A8509B712888053000CD88C1 /* DataAccessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessService.swift; sourceTree = "<group>"; };
+		A8509B76288805ED00CD88C1 /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
+		A8509B782888066F00CD88C1 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		A8509B7A288819C200CD88C1 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		A8509B7F288827CD00CD88C1 /* PetInputDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInputDto.swift; sourceTree = "<group>"; };
+		A8509B822888326800CD88C1 /* RealmError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmError.swift; sourceTree = "<group>"; };
+		A8509B84288838A600CD88C1 /* PetResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetResultDto.swift; sourceTree = "<group>"; };
+		A8509B862888437B00CD88C1 /* LetterInputDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterInputDto.swift; sourceTree = "<group>"; };
+		A8509B882888D0E400CD88C1 /* FlowerLogStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerLogStatus.swift; sourceTree = "<group>"; };
+		A8509B8A2888D79800CD88C1 /* LetterResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterResultDto.swift; sourceTree = "<group>"; };
+		A8509B8D2888D9D600CD88C1 /* DateConveter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConveter.swift; sourceTree = "<group>"; };
+		A8509B8F2888E6D300CD88C1 /* UtilError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilError.swift; sourceTree = "<group>"; };
+		A86EE30E288788E400084E98 /* OverTheRainbowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverTheRainbowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86EE310288788E400084E98 /* OverTheRainbowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverTheRainbowTests.swift; sourceTree = "<group>"; };
+		A8A87ED82889753A009E3C6C /* MainViewResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewResultDto.swift; sourceTree = "<group>"; };
+		A8A87EDA288A2C85009E3C6C /* DataAccessProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessProvider.swift; sourceTree = "<group>"; };
+		A8A87EDC288A484F009E3C6C /* DataAccessConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessConfig.swift; sourceTree = "<group>"; };
+		A8A87EDE288A4C8F009E3C6C /* HeavenViewResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavenViewResultDto.swift; sourceTree = "<group>"; };
+		A8A87EE1288AE2EB009E3C6C /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		A8A87EE3288B845A009E3C6C /* WordResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordResultDto.swift; sourceTree = "<group>"; };
+		A8D95DEC288935F500EE02CB /* FlowerResultDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerResultDto.swift; sourceTree = "<group>"; };
+		A8D95DEE2889593200EE02CB /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		A8D95DF02889621400EE02CB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		BE1AAD714EC6C1AF11C4C79B /* Pods-OverTheRainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.debug.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.debug.xcconfig"; sourceTree = "<group>"; };
 		C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,19 +124,51 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C56CDABD287EE41E00C1F5F9 /* Frameworks */ = {
+		A86EE30B288788E400084E98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C56CDABD287EE41E00C1F5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8509B5E2887F18800CD88C1 /* Pods_OverTheRainbow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D4E3D82D213F98EEDA41D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B6C2887FB4700CD88C1 /* RealmSwift.framework */,
+				A8509B6A2887FB4100CD88C1 /* Realm.framework */,
+				A8509B682887F8B600CD88C1 /* Realm.framework */,
+				A8509B662887F8A500CD88C1 /* realm-monorepo.xcframework */,
+				A8509B632887F86400CD88C1 /* RealmSwift.framework */,
+				A8509B612887F85400CD88C1 /* Realm.framework */,
+				0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1684BD5086103FB9D6A3B3E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AAD714EC6C1AF11C4C79B /* Pods-OverTheRainbow.debug.xcconfig */,
+				7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		27C8AC1E2885406A000D2374 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				A8509B8C2888D9C500CD88C1 /* Util */,
 				C56CDACC287EE41F00C1F5F9 /* Assets.xcassets */,
 			);
 			path = Global;
@@ -67,14 +182,6 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		27C8AC2028854182000D2374 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				27C8AC24288542DC000D2374 /* TempFile.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		27C8AC21288542B1000D2374 /* letterList */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +190,162 @@
 			path = letterList;
 			sourceTree = "<group>";
 		};
+		A8509B4728878C1400CD88C1 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B812888322600CD88C1 /* Error */,
+				A8509B732888054B00CD88C1 /* Realm */,
+				A8A87EDC288A484F009E3C6C /* DataAccessConfig.swift */,
+				A8509B712888053000CD88C1 /* DataAccessService.swift */,
+				A8A87EDA288A2C85009E3C6C /* DataAccessProvider.swift */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		A8509B4828878C1E00CD88C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B4928878C4000CD88C1 /* Pet.swift */,
+				A8509B4B28878EA000CD88C1 /* Letter.swift */,
+				A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */,
+				A8509B532887996E00CD88C1 /* Flower.swift */,
+				A8509B55288799B400CD88C1 /* FlowerLog.swift */,
+				A8509B882888D0E400CD88C1 /* FlowerLogStatus.swift */,
+				A8509B5728879A3900CD88C1 /* Words.swift */,
+				A8509B7A288819C200CD88C1 /* RealmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8509B4F2887905300CD88C1 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B502887905900CD88C1 /* Model */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		A8509B502887905900CD88C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B512887906F00CD88C1 /* LetterStatusTest.swift */,
+				A8509B592887A0C400CD88C1 /* ModelTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8509B6E288804A800CD88C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B6F288804C900CD88C1 /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8509B732888054B00CD88C1 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				A8A87EE0288AE2E3009E3C6C /* Extensions */,
+				A8509B7C2888258800CD88C1 /* Dto */,
+				A8509B75288805E100CD88C1 /* Repository */,
+				A8509B6E288804A800CD88C1 /* Service */,
+				A8509B4828878C1E00CD88C1 /* Model */,
+				A8509B782888066F00CD88C1 /* RealmConfig.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		A8509B75288805E100CD88C1 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B76288805ED00CD88C1 /* RealmRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		A8509B7C2888258800CD88C1 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B7D2888258F00CD88C1 /* In */,
+				A8509B7E2888259100CD88C1 /* Out */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		A8509B7D2888258F00CD88C1 /* In */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B7F288827CD00CD88C1 /* PetInputDto.swift */,
+				A8509B862888437B00CD88C1 /* LetterInputDto.swift */,
+			);
+			path = In;
+			sourceTree = "<group>";
+		};
+		A8509B7E2888259100CD88C1 /* Out */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B84288838A600CD88C1 /* PetResultDto.swift */,
+				A8509B8A2888D79800CD88C1 /* LetterResultDto.swift */,
+				A8D95DEC288935F500EE02CB /* FlowerResultDto.swift */,
+				A8A87ED82889753A009E3C6C /* MainViewResultDto.swift */,
+				A8A87EDE288A4C8F009E3C6C /* HeavenViewResultDto.swift */,
+				A8A87EE3288B845A009E3C6C /* WordResultDto.swift */,
+			);
+			path = Out;
+			sourceTree = "<group>";
+		};
+		A8509B812888322600CD88C1 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B822888326800CD88C1 /* RealmError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		A8509B8C2888D9C500CD88C1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A8D95DF22889629300EE02CB /* Date */,
+				A8509B8F2888E6D300CD88C1 /* UtilError.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A86EE30F288788E400084E98 /* OverTheRainbowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B4F2887905300CD88C1 /* DataAccess */,
+				A86EE310288788E400084E98 /* OverTheRainbowTests.swift */,
+			);
+			path = OverTheRainbowTests;
+			sourceTree = "<group>";
+		};
+		A8A87EE0288AE2E3009E3C6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8A87EE1288AE2EB009E3C6C /* Results.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8D95DF22889629300EE02CB /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				A8509B8D2888D9D600CD88C1 /* DateConveter.swift */,
+				A8D95DEE2889593200EE02CB /* DateFormat.swift */,
+				A8D95DF02889621400EE02CB /* DateExtension.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		C56CDAB7287EE41E00C1F5F9 = {
 			isa = PBXGroup;
 			children = (
 				C56CDAC2287EE41E00C1F5F9 /* OverTheRainbow */,
+				A86EE30F288788E400084E98 /* OverTheRainbowTests */,
 				C56CDAC1287EE41E00C1F5F9 /* Products */,
+				1684BD5086103FB9D6A3B3E7 /* Pods */,
+				06D4E3D82D213F98EEDA41D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */,
+				A86EE30E288788E400084E98 /* OverTheRainbowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +361,7 @@
 		C56CDAC2287EE41E00C1F5F9 /* OverTheRainbow */ = {
 			isa = PBXGroup;
 			children = (
-				27C8AC2028854182000D2374 /* Network */,
+				A8509B4728878C1400CD88C1 /* DataAccess */,
 				27C8AC1F28854156000D2374 /* Screens */,
 				27C8AC1E2885406A000D2374 /* Global */,
 				C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */,
@@ -123,14 +382,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A86EE30D288788E400084E98 /* OverTheRainbowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86EE316288788E400084E98 /* Build configuration list for PBXNativeTarget "OverTheRainbowTests" */;
+			buildPhases = (
+				A86EE30A288788E400084E98 /* Sources */,
+				A86EE30B288788E400084E98 /* Frameworks */,
+				A86EE30C288788E400084E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86EE313288788E400084E98 /* PBXTargetDependency */,
+			);
+			name = OverTheRainbowTests;
+			productName = OverTheRainbowTests;
+			productReference = A86EE30E288788E400084E98 /* OverTheRainbowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C56CDABF287EE41E00C1F5F9 /* OverTheRainbow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C56CDAD4287EE41F00C1F5F9 /* Build configuration list for PBXNativeTarget "OverTheRainbow" */;
 			buildPhases = (
+				9AC73EBC757FA8F8B52AEDA4 /* [CP] Check Pods Manifest.lock */,
 				C5767F1B2885390D006E5991 /* Run SwiftLint */,
 				C56CDABC287EE41E00C1F5F9 /* Sources */,
 				C56CDABD287EE41E00C1F5F9 /* Frameworks */,
 				C56CDABE287EE41E00C1F5F9 /* Resources */,
+				69819566FD988E01FE588615 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +430,10 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					A86EE30D288788E400084E98 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C56CDABF287EE41E00C1F5F9;
+					};
 					C56CDABF287EE41E00C1F5F9 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -170,11 +453,19 @@
 			projectRoot = "";
 			targets = (
 				C56CDABF287EE41E00C1F5F9 /* OverTheRainbow */,
+				A86EE30D288788E400084E98 /* OverTheRainbowTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A86EE30C288788E400084E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C56CDABE287EE41E00C1F5F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +480,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		69819566FD988E01FE588615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC73EBC757FA8F8B52AEDA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverTheRainbow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
 		C5767F1B2885390D006E5991 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,12 +543,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A86EE30A288788E400084E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8509B5A2887A0C400CD88C1 /* ModelTest.swift in Sources */,
+				A86EE311288788E400084E98 /* OverTheRainbowTests.swift in Sources */,
+				A8509B522887906F00CD88C1 /* LetterStatusTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C56CDABC287EE41E00C1F5F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */,
+				A8A87ED92889753A009E3C6C /* MainViewResultDto.swift in Sources */,
+				A8509B70288804C900CD88C1 /* RealmService.swift in Sources */,
+				A8509B85288838A600CD88C1 /* PetResultDto.swift in Sources */,
+				A8509B4A28878C4000CD88C1 /* Pet.swift in Sources */,
+				A8509B56288799B400CD88C1 /* FlowerLog.swift in Sources */,
+				A8D95DF12889621400EE02CB /* DateExtension.swift in Sources */,
 				27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */,
+				A8A87EE2288AE2EB009E3C6C /* Results.swift in Sources */,
 				C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */,
+				A8509B8E2888D9D600CD88C1 /* DateConveter.swift in Sources */,
+				A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				C50FC85F288DF8760005DA18 /* EditLetterViewConttroller.swift in Sources */,
 				C58E3B63288DBF3F00D66BBD /* WrittenLetterListViewController.swift in Sources */,
@@ -223,10 +576,37 @@
 				C50FC861288DFA270005DA18 /* WrittenLetterViewController.swift in Sources */,
 				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
 				C58E3B61288DBF1800D66BBD /* WritingLetterViewController.swift in Sources */,
+				A8509B77288805ED00CD88C1 /* RealmRepository.swift in Sources */,
+				A8509B902888E6D300CD88C1 /* UtilError.swift in Sources */,
+				A8A87EDF288A4C8F009E3C6C /* HeavenViewResultDto.swift in Sources */,
+				A8A87EE4288B845A009E3C6C /* WordResultDto.swift in Sources */,
+				A8509B542887996E00CD88C1 /* Flower.swift in Sources */,
+				A8D95DED288935F500EE02CB /* FlowerResultDto.swift in Sources */,
+				A8A87EDB288A2C85009E3C6C /* DataAccessProvider.swift in Sources */,
+				A8509B792888066F00CD88C1 /* RealmConfig.swift in Sources */,
+				A8509B832888326800CD88C1 /* RealmError.swift in Sources */,
+				A8509B892888D0E400CD88C1 /* FlowerLogStatus.swift in Sources */,
+				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
+				A8509B80288827CD00CD88C1 /* PetInputDto.swift in Sources */,
+				A8509B8B2888D79800CD88C1 /* LetterResultDto.swift in Sources */,
+				A8A87EDD288A484F009E3C6C /* DataAccessConfig.swift in Sources */,
+				A8509B872888437B00CD88C1 /* LetterInputDto.swift in Sources */,
+				A8509B722888053000CD88C1 /* DataAccessService.swift in Sources */,
+				A8509B7B288819C200CD88C1 /* RealmModel.swift in Sources */,
+				A8D95DEF2889593200EE02CB /* DateFormat.swift in Sources */,
+				A8509B5828879A3900CD88C1 /* Words.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A86EE313288788E400084E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56CDABF287EE41E00C1F5F9 /* OverTheRainbow */;
+			targetProxy = A86EE312288788E400084E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C52ACC58288DBC8D00E4F9F6 /* WritingLetter.storyboard */ = {
@@ -256,6 +636,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A86EE314288788E400084E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R2KHHT3YN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ADA.OverTheRainbowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverTheRainbow.app/OverTheRainbow";
+			};
+			name = Debug;
+		};
+		A86EE315288788E400084E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R2KHHT3YN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ADA.OverTheRainbowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverTheRainbow.app/OverTheRainbow";
+			};
+			name = Release;
+		};
 		C56CDAD2287EE41F00C1F5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +802,7 @@
 		};
 		C56CDAD5287EE41F00C1F5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1AAD714EC6C1AF11C4C79B /* Pods-OverTheRainbow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,6 +831,7 @@
 		};
 		C56CDAD6287EE41F00C1F5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -429,6 +861,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A86EE316288788E400084E98 /* Build configuration list for PBXNativeTarget "OverTheRainbowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86EE314288788E400084E98 /* Debug */,
+				A86EE315288788E400084E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C56CDABB287EE41E00C1F5F9 /* Build configuration list for PBXProject "OverTheRainbow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
