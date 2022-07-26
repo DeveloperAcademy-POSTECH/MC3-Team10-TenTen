@@ -9,9 +9,11 @@ import UIKit
 
 class MainViewController: UIViewController {
     var numberOfLetters: Int = 0
-    var pickedFlowerIndex: Int?
+    var pickedFlower: FlowerResultDto?
     var didFlowerToday: Bool = false
     var petID: String?
+    let service = DataAccessProvider.dataAccessConfig.getService()
+    var userData: MainViewResultDto?
 
     @IBOutlet weak var flowerBoxView: FlowerBoxView!
     @IBOutlet weak var letterBoxView: LetterBoxView!
@@ -20,7 +22,14 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        quoteLabel.text = quotes[Int.random(in: 0...4)]
+        // testing & debugging
+        UserDefaults.standard.set("62dfa3e89f013f77d8165ca3", forKey: "petID")
+        UserDefaults.standard.synchronize()
+        // UserDefaults.standard.removeObject(forKey: "petID")
+        if let petID = UserDefaults.standard.string(forKey: "petID") {
+            userData = try? service.getMainView(petID)
+        }
+        quoteLabel.text = userData?.word.content ?? "자료없음"
 
         [guideLabel, quoteLabel].forEach {
             $0.font = UIFont.preferredFont(forTextStyle: .headline, weight: .regular)
@@ -38,11 +47,10 @@ class MainViewController: UIViewController {
         petID = UserDefaults.standard.string(forKey: "petID")
 
         // 렘에서 fetch한 꽃의 인덱스, 편지 숫자
-        // random: testing
-        pickedFlowerIndex = Int.random(in: 0...4)
-        numberOfLetters = Int.random(in: 0...100)
+        pickedFlower = userData?.flower
+        numberOfLetters = userData?.letterCount ?? 0
 
-        flowerBoxView.updatePreview(flowerIndex: pickedFlowerIndex, didFlowerToday: didFlowerToday)
+        flowerBoxView.updatePreview(flower: pickedFlower, didFlowerToday: didFlowerToday)
         letterBoxView.updatePreview(numberOfLetter: numberOfLetters)
     }
     override func viewWillDisappear(_ animated: Bool) {
@@ -102,7 +110,7 @@ extension MainViewController {
         // debug
         // alertCondition(didFlowerToday: &didFlowerToday, pickedFlowerIndex: &pickedFlowerIndex)
 
-        if !didFlowerToday && (pickedFlowerIndex == nil) {
+        if !didFlowerToday && (pickedFlower == nil) {
             let guideAlert = UIAlertController(
                 title: "오늘 헌화할 꽃을 선택해주세요",
                 message: "추모하러 가기 전에 꽃을 준비해주세요.",
@@ -116,6 +124,7 @@ extension MainViewController {
             }
 
             // MARK: 렘에 현재 선택한 꽃 없애기
+            try? service.send(petID ?? "불가능")
 
             navigateToStoryboardVC("HEAVENVIEW")
         }
@@ -167,9 +176,9 @@ func clearUserDefault() {
     let key = "flowerPickedToday"
     UserDefaults.standard.removeObject(forKey: key)
 }
-func alertCondition(didFlowerToday: inout Bool, pickedFlowerIndex: inout Int?) {
+func alertCondition(didFlowerToday: inout Bool, pickedFlower: inout FlowerResultDto?) {
     didFlowerToday = false
-    pickedFlowerIndex = nil
+    pickedFlower = nil
 }
 
 // mockupdata
