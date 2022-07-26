@@ -116,12 +116,12 @@
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="p4N-9l-F7s">
                     <connections>
-                        <segue destination="i1x-40-OxG" kind="show" id="h7F-CK-HrG"/>
+                        <action selector="flowerBoxTapped:" destination="BYZ-38-t0r" id="zqK-HJ-CFk"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="BpN-se-eWA">
                     <connections>
-                        <segue destination="svf-Zk-k25" kind="show" id="g5M-KW-pjH"/>
+                        <action selector="letterBoxTapped:" destination="BYZ-38-t0r" id="fZJ-jU-m47"/>
                     </connections>
                 </tapGestureRecognizer>
                 <swipeGestureRecognizer direction="down" id="Vin-Si-kv2">
@@ -135,13 +135,13 @@
         <!--View Controller-->
         <scene sceneID="cKp-uX-9qp">
             <objects>
-                <viewController id="i1x-40-OxG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FLOWERVIEW" id="i1x-40-OxG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x8T-aY-qSi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="꽃뷰 스텁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2J-J4-HfV">
-                                <rect key="frame" x="175" y="464.5" width="64" height="21"/>
+                                <rect key="frame" x="175" y="442.5" width="64" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -163,13 +163,13 @@
         <!--View Controller-->
         <scene sceneID="tX6-QM-5W9">
             <objects>
-                <viewController id="svf-Zk-k25" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LETTERVIEW" id="svf-Zk-k25" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q8n-B5-wfM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="편지뷰 스텁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9D-RO-3AZ">
-                                <rect key="frame" x="168" y="464.5" width="78" height="21"/>
+                                <rect key="frame" x="168" y="442.5" width="78" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -219,7 +219,7 @@
         <!--View Controller-->
         <scene sceneID="L0N-yT-Ip8">
             <objects>
-                <viewController id="hVL-sE-Ukl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SETTINGVIEW" id="hVL-sE-Ukl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vKi-XY-XqY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
