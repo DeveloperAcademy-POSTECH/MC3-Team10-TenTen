@@ -44,6 +44,8 @@ class WritingLetterViewController: UIViewController {
         selectPicture.tintColor = UIColor(named: "textColor")
         selectPicture.addTarget(self, action: #selector(pickImage), for: .touchUpInside)
         letterTitle.placeholder = "제목을 작성해주세요"
+        letterTitle.delegate = self
+        letterTitle.returnKeyType = .done
 
         letterContent.delegate = self
         letterContent.text = "어떤 말을 전하고 싶나요?"
@@ -104,6 +106,16 @@ extension WritingLetterViewController: UITextViewDelegate {
             textView.textColor = UIColor.lightGray
         }
     } // 텍스트 뷰가 비어있으면 placeholder 유지
+}
+
+extension WritingLetterViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == self.letterTitle {
+            textField.resignFirstResponder()
+            return false
+        }
+        return true
+    }
 }
 
 @available(iOS 14, *)
