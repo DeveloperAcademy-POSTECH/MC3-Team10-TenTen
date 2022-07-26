@@ -52,11 +52,8 @@ class WritingLetterViewController: UIViewController {
         writingDate.text = dateFormatter.string(from: date)
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-//        let tap2 = UITapGestureRecognizer(target: self, action: #selector(textViewDidBeginEditing))
-        // 텍스트 뷰에 포커스 잡히면 원래 있던 글자가 placeholder 처럼 작동하도록 변경
 
         view.addGestureRecognizer(tap)
-//        letterContent.addGestureRecognizer(tap2)
     }
 
     @IBAction func doneWritingLetter(_ sender: UIBarButtonItem) {
