@@ -9,7 +9,7 @@ import UIKit
 import Photos
 import PhotosUI
 
-class WritingLetterViewController: UIViewController, UITextViewDelegate {
+class WritingLetterViewController: UIViewController {
     
     @IBOutlet weak var writingLetterNavBar: UINavigationItem!
     @IBOutlet weak var navBarRightItem: UIBarButtonItem!
@@ -50,22 +50,22 @@ class WritingLetterViewController: UIViewController, UITextViewDelegate {
         dateFormatter.timeZone = TimeZone.current
         dateFormatter.dateFormat = "yyyy.MM.dd"
         writingDate.text = dateFormatter.string(from: date)
-        
+
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+//        let tap2 = UITapGestureRecognizer(target: self, action: #selector(textViewDidBeginEditing))
+        // 텍스트 뷰에 포커스 잡히면 원래 있던 글자가 placeholder 처럼 작동하도록 변경
 
-            //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-            //tap.cancelsTouchesInView = false
-
-            view.addGestureRecognizer(tap)
-        }
+        view.addGestureRecognizer(tap)
+//        letterContent.addGestureRecognizer(tap2)
+    }
 
     @IBAction func doneWritingLetter(_ sender: UIBarButtonItem) {
         print("작성을 완료했습니다.")
         dismiss(animated: true)
     }
-    
+
     @objc func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        // Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
 
@@ -88,20 +88,21 @@ class WritingLetterViewController: UIViewController, UITextViewDelegate {
     }
 }
 
-extension ViewController : UITextViewDelegate {
+extension WritingLetterViewController: UITextViewDelegate {
+
     func textViewDidBeginEditing(_ textView: UITextView) {
-        if textView.textColor == UIColor.lightGray {
+        if !textView.text.isEmpty {
             textView.text = nil
             textView.textColor = UIColor.black
         }
-    }
+    } // 텍스트 뷰에 포커스 잡히면 원래 있던 글자가 placeholder 처럼 작동하도록 변경
 
     func textViewDidEndEditing(_ textView: UITextView) {
         if textView.text.isEmpty {
-            textView.text = "일반 TextView 입니다."
+            textView.text = "어떤 말을 전하고 싶나요?"
             textView.textColor = UIColor.lightGray
         }
-    }
+    } // 텍스트 뷰가 비어있으면 placeholder 유지
 }
 
 @available(iOS 14, *)
@@ -109,15 +110,13 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
     @objc func pickImage(sender: UIButton) {
         selectPicture = sender
         var configuration = PHPickerConfiguration()
-//    이미지 정보를 가지고 올 필요가 있을땐 photolibarary 를 사용해준다. //use when need image file info.
-//            let photoLibrary = PHPhotoLibrary.shared()
-//            var configuration = PHPickerConfiguration(photoLibrary: photoLibrary)
 
         configuration.selectionLimit = 1
         configuration.filter = .any(of: [.images])
         let picker = PHPickerViewController(configuration: configuration)
         picker.delegate = self
         self.present(picker, animated: true, completion: nil)
+        dismissKeyboard() // 편지 작성하다가도 사진 불러오기 버튼 누르면 키보드 사라지도록 변경
     }
 
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
