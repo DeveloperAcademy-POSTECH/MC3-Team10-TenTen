@@ -39,6 +39,7 @@ class WritingLetterViewController: UIViewController, UITextViewDelegate {
         selectPicture.setImage(largeBoldButton, for: .normal)
         selectPicture.tintColor = UIColor(named: "textColor")
         selectPicture.addTarget(self, action: #selector(pickImage), for: .touchUpInside)
+
         letterTitle.placeholder = "제목을 작성해주세요"
 
         letterContent.delegate = self
@@ -122,10 +123,6 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
 
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
 
-        var imgData: Data?
-        var img: UIImage?
-
-
         picker.dismiss(animated: true, completion: nil)
         let itemProvider = results.first?.itemProvider
 
@@ -135,6 +132,10 @@ extension WritingLetterViewController: PHPickerViewControllerDelegate {
                 (image, error) in
                 DispatchQueue.main.async {
                     self.openGallery.image = image as? UIImage
+                    if((image) != nil) {
+                        self.selectPicture.setImage(UIImage(), for: .normal)
+                        //버튼을 투명하게 하기 위해 .normal로 바꿔줌
+                    }
                 }
             }
         }
