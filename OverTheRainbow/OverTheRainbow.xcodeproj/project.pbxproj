@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
-		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
-		C5345AF8288649C9007CF796 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AF7288649C9007CF796 /* MainViewController.swift */; };
-		C5345AFC28864E86007CF796 /* BoxViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AFB28864E86007CF796 /* BoxViews.swift */; };
-		C554EA18288E603200954E11 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA14288E603100954E11 /* TransitionAnimation.swift */; };
-		C554EA1A288E603200954E11 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */; };
-		C554EA1B288E603200954E11 /* TestHeavenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA17288E603200954E11 /* TestHeavenViewController.swift */; };
+		2C93A764288F8F93005A0CA8 /* HeavenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A763288F8F93005A0CA8 /* HeavenViewController.swift */; };
+		2C93A766288F8FA4005A0CA8 /* HeavenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93A765288F8FA4005A0CA8 /* HeavenView.storyboard */; };
 		A8509B4A28878C4000CD88C1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4928878C4000CD88C1 /* Pet.swift */; };
 		A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4B28878EA000CD88C1 /* Letter.swift */; };
 		A8509B4E28878F0C00CD88C1 /* LetterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8509B4D28878F0C00CD88C1 /* LetterStatus.swift */; };
@@ -46,6 +42,11 @@
 		A8D95DED288935F500EE02CB /* FlowerResultDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DEC288935F500EE02CB /* FlowerResultDto.swift */; };
 		A8D95DEF2889593200EE02CB /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DEE2889593200EE02CB /* DateFormat.swift */; };
 		A8D95DF12889621400EE02CB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95DF02889621400EE02CB /* DateExtension.swift */; };
+		C5345AF8288649C9007CF796 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AF7288649C9007CF796 /* MainViewController.swift */; };
+		C5345AFC28864E86007CF796 /* BoxViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5345AFB28864E86007CF796 /* BoxViews.swift */; };
+		C554EA18288E603200954E11 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA14288E603100954E11 /* TransitionAnimation.swift */; };
+		C554EA1A288E603200954E11 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */; };
+		C554EA1B288E603200954E11 /* TestHeavenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EA17288E603200954E11 /* TestHeavenViewController.swift */; };
 		C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */; };
 		C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */; };
 		C56CDAC8287EE41E00C1F5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CDAC7287EE41E00C1F5F9 /* ViewController.swift */; };
@@ -68,12 +69,8 @@
 /* Begin PBXFileReference section */
 		0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheRainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
-		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
-		C5345AF7288649C9007CF796 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C5345AFB28864E86007CF796 /* BoxViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViews.swift; sourceTree = "<group>"; };
-		C554EA14288E603100954E11 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
-		C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
-		C554EA17288E603200954E11 /* TestHeavenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHeavenViewController.swift; sourceTree = "<group>"; };
+		2C93A763288F8F93005A0CA8 /* HeavenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavenViewController.swift; sourceTree = "<group>"; };
+		2C93A765288F8FA4005A0CA8 /* HeavenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HeavenView.storyboard; sourceTree = "<group>"; };
 		7E25BB3D133FB640732CCAA6 /* Pods-OverTheRainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.release.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.release.xcconfig"; sourceTree = "<group>"; };
 		A8509B4928878C4000CD88C1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		A8509B4B28878EA000CD88C1 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
@@ -114,6 +111,11 @@
 		A8D95DEE2889593200EE02CB /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		A8D95DF02889621400EE02CB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		BE1AAD714EC6C1AF11C4C79B /* Pods-OverTheRainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverTheRainbow.debug.xcconfig"; path = "Target Support Files/Pods-OverTheRainbow/Pods-OverTheRainbow.debug.xcconfig"; sourceTree = "<group>"; };
+		C5345AF7288649C9007CF796 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C5345AFB28864E86007CF796 /* BoxViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViews.swift; sourceTree = "<group>"; };
+		C554EA14288E603100954E11 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		C554EA16288E603200954E11 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		C554EA17288E603200954E11 /* TestHeavenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHeavenViewController.swift; sourceTree = "<group>"; };
 		C56CDAC0287EE41E00C1F5F9 /* OverTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56CDAC3287EE41E00C1F5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56CDAC5287EE41E00C1F5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		27C8AC1F28854156000D2374 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2C93A762288F8F86005A0CA8 /* heavenView */,
 				C5345AF6288649AB007CF796 /* mainView */,
 				27C8AC21288542B1000D2374 /* letterList */,
 			);
@@ -191,6 +194,15 @@
 				27C8AC22288542CD000D2374 /* LetterListViewController.swift */,
 			);
 			path = letterList;
+			sourceTree = "<group>";
+		};
+		2C93A762288F8F86005A0CA8 /* heavenView */ = {
+			isa = PBXGroup;
+			children = (
+				2C93A763288F8F93005A0CA8 /* HeavenViewController.swift */,
+				2C93A765288F8FA4005A0CA8 /* HeavenView.storyboard */,
+			);
+			path = heavenView;
 			sourceTree = "<group>";
 		};
 		A8509B4728878C1400CD88C1 /* DataAccess */ = {
@@ -483,6 +495,7 @@
 			files = (
 				C56CDAD0287EE41F00C1F5F9 /* LaunchScreen.storyboard in Resources */,
 				C56CDACD287EE41F00C1F5F9 /* Assets.xcassets in Resources */,
+				2C93A766288F8FA4005A0CA8 /* HeavenView.storyboard in Resources */,
 				C56CDACB287EE41E00C1F5F9 /* MainView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,9 +542,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXResourcesBuildPhase section */
 		C5767F1B2885390D006E5991 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,6 +596,7 @@
 				C554EA1A288E603200954E11 /* NavigationControllerDelegate.swift in Sources */,
 				A8509B8E2888D9D600CD88C1 /* DateConveter.swift in Sources */,
 				A8509B4C28878EA000CD88C1 /* Letter.swift in Sources */,
+				2C93A764288F8F93005A0CA8 /* HeavenViewController.swift in Sources */,
 				C56CDAC4287EE41E00C1F5F9 /* AppDelegate.swift in Sources */,
 				A8509B77288805ED00CD88C1 /* RealmRepository.swift in Sources */,
 				A8509B902888E6D300CD88C1 /* UtilError.swift in Sources */,

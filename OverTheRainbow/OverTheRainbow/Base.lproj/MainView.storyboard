@@ -12,7 +12,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="OverTheRainbow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainView" id="BYZ-38-t0r" customClass="MainViewController" customModule="OverTheRainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,6 +215,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Inr-a0-Rfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="866.66666666666674" y="-733.25892857142856"/>
+        </scene>
+        <!--HeavenView-->
+        <scene sceneID="iMo-cU-YvW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VtV-nL-RPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="HeavenView" storyboardName="HeavenView" id="4AM-RE-rFq" sceneMemberID="viewController"/>
+            </objects>
+            <point key="canvasLocation" x="1491" y="-623"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L0N-yT-Ip8">

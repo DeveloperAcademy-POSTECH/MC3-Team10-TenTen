@@ -74,7 +74,7 @@ extension MainViewController {
             // MARK: 렘에 현재 선택한 꽃 없애기
 
             // ref: https://m.blog.naver.com/horajjan/220622322609
-            if let heavenVC = storyboard?.instantiateViewController(withIdentifier: "HEAVENVIEW") {
+            if let heavenVC = storyboard?.instantiateViewController(withIdentifier: "HeavenView") {
                 heavenVC.modalTransitionStyle = UIModalTransitionStyle.coverVertical
                 navigationController?.pushViewController(heavenVC, animated: true)
             }

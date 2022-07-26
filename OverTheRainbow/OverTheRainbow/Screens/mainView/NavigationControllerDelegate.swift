@@ -25,12 +25,12 @@ class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
         // 시작 뷰와 다음 뷰에 따라 커스텀 뷰 전환 지정
         switch(fromVC, toVC) {
         // 메인뷰 -> 천국뷰 이동
-        case (is MainViewController, is TestHeavenViewController):
+        case (is MainViewController, is HeavenViewController):
             let mainHeavenTransition = MainHeavenTransition()
             mainHeavenTransition.operation = .push
             transition = mainHeavenTransition
         // 천국뷰 -> 메인뷰 이동
-        case (is TestHeavenViewController, is MainViewController):
+        case (is HeavenViewController, is MainViewController):
             let mainHeavenTransition = MainHeavenTransition()
             mainHeavenTransition.operation = .pop
             transition = mainHeavenTransition
