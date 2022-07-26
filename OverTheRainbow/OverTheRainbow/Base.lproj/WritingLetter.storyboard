@@ -113,7 +113,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lbF-m8-5ek">
-                        <barButtonItem key="rightBarButtonItem" title="완료" id="8LX-Ta-h94">
+                        <barButtonItem key="rightBarButtonItem" title="완료" style="plain" id="8LX-Ta-h94">
                             <color key="tintColor" red="0.29332616929999999" green="0.25663542750000001" blue="0.25579723720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="doneWritingLetter:" destination="9G4-a1-YfW" id="ZYs-bl-6uc"/>

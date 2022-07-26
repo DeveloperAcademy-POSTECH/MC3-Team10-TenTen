@@ -23,11 +23,15 @@ class WritingLetterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        writingLetterNavBar.title="편지 작성"
+        writingLetterNavBar.title = "편지 작성"
+
+        let attributes: [NSAttributedString.Key: Any] = [ .font: UIFont.boldSystemFont(ofSize: 18) ]
+        navBarRightItem.setTitleTextAttributes(attributes, for: .normal)
 
         button.setImage(UIImage(systemName: "chevron.left"), for: .normal)
         button.setTitle("취소", for: .normal)
-        button.sizeToFit()
+//        button.sizeToFit()
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 18)
         button.tintColor = UIColor(named: "textColor")
         writingLetterNavBar.leftBarButtonItem = UIBarButtonItem(customView: button)
         button.addTarget(self, action: #selector(showActionSheet), for: .touchUpInside)
