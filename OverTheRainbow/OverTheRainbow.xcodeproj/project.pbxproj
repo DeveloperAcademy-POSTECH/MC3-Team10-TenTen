@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		27C8AC23288542CD000D2374 /* LetterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC22288542CD000D2374 /* LetterListViewController.swift */; };
-		27C8AC25288542DC000D2374 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8AC24288542DC000D2374 /* TempFile.swift */; };
 		2C93A74F2887E5FA005A0CA8 /* SettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */; };
 		2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7502887E609005A0CA8 /* SettingViewController.swift */; };
 		2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */; };
@@ -65,7 +64,6 @@
 /* Begin PBXFileReference section */
 		0306C05ACD039E0A7DFC5789 /* Pods_OverTheRainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheRainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8AC22288542CD000D2374 /* LetterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListViewController.swift; sourceTree = "<group>"; };
-		27C8AC24288542DC000D2374 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
 		2C93A74E2887E5FA005A0CA8 /* SettingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingView.storyboard; sourceTree = "<group>"; };
 		2C93A7502887E609005A0CA8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		2C93A7522888068B005A0CA8 /* UpdatePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePetViewController.swift; sourceTree = "<group>"; };
@@ -584,7 +582,6 @@
 				A8509B892888D0E400CD88C1 /* FlowerLogStatus.swift in Sources */,
 				C56CDAC6287EE41E00C1F5F9 /* SceneDelegate.swift in Sources */,
 				2C93A7532888068B005A0CA8 /* UpdatePetViewController.swift in Sources */,
-				27C8AC25288542DC000D2374 /* TempFile.swift in Sources */,
 				2C93A7512887E609005A0CA8 /* SettingViewController.swift in Sources */,
 				A8509B80288827CD00CD88C1 /* PetInputDto.swift in Sources */,
 				A8509B8B2888D79800CD88C1 /* LetterResultDto.swift in Sources */,

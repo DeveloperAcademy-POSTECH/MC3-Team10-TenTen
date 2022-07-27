@@ -43,8 +43,8 @@ class UpdatePetViewController: UIViewController {
         print("confirm")
 
         if let name = nameTextField.text, let species = speciesTextField.text, let birth = birthTextField.text, let weight = weightTextField.text {
-            let myPet = Pet(name: name, species: species, birth: birth, weight: weight)
-            delegate?.dataReceived(data: myPet)
+//            let myPet = Pet(name: name, species: species, birth: birth, weight: weight)
+//            delegate?.dataReceived(data: myPet)
         }
         self.dismiss(animated: true)
     }

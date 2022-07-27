@@ -15,17 +15,29 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var birthLabel: UILabel!
     @IBOutlet weak var weightLabel: UILabel!
 
+    let service: DataAccessService = DataAccessProvider.dataAccessConfig.getService()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let updateButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(updatePet))
         updateButton.tintColor = UIColor(named: "textColor")
         navigationBar.rightBarButtonItem = updateButton
+
+        do {
+            let petDTO = try service.findPet(id: "62e0952349d71adbcea8ae97")
+            nameLabel.text = petDTO.name
+            speciesLabel.text = petDTO.species
+            birthLabel.text = String(petDTO.age)
+            weightLabel.text = String(petDTO.weight)
+        } catch {
+            print("Error finding pet : \(error)")
+        }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as? UpdatePetViewController
-        destinationVC!.delegate = self
+//        let destinationVC = segue.destination as? UpdatePetViewController
+//        destinationVC!.delegate = self
     }
 
     @objc func updatePet() {
@@ -34,19 +46,19 @@ class SettingViewController: UIViewController {
     }
 }
 
-extension SettingViewController: SendBackDelegate {
-    func dataReceived(data: Pet) {
-        nameLabel.text = data.name
-        speciesLabel.text = data.species
-        birthLabel.text = data.birth
-        weightLabel.text = data.weight
-    }
-}
-
-// MARK: - Mock Data
-struct Pet {
-    var name: String
-    var species: String
-    var birth: String
-    var weight: String
-}
+//extension SettingViewController: SendBackDelegate {
+//    func dataReceived(data: Pet) {
+//        nameLabel.text = data.name
+//        speciesLabel.text = data.species
+//        birthLabel.text = data.birth
+//        weightLabel.text = data.weight
+//    }
+//}
+//
+//// MARK: - Mock Data
+//struct Pet {
+//    var name: String
+//    var species: String
+//    var birth: String
+//    var weight: String
+//}

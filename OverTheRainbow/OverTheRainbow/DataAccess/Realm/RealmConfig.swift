@@ -12,8 +12,8 @@ import RealmSwift
 class RealmConfig: DataAccessConfig {
     public static let config = RealmConfig()
     
-    private let realm: Realm = try! Realm()
-    
+    private let realm: Realm
+
     private func getRepository() -> RealmRepository {
         return RealmRepository(realm: self.realm)
     }
@@ -22,5 +22,8 @@ class RealmConfig: DataAccessConfig {
         return RealmService(realm, self.getRepository())
     }
     
-    private init() {}
+    private init() {
+        realm = try! Realm()
+        print(realm.configuration.fileURL!)
+    }
 }
